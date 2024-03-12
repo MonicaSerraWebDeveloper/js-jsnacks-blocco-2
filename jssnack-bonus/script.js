@@ -4,13 +4,10 @@ const fourFiguresNumber = prompt('Scrivi un numero di 4 cifre'); // Chiediamo un
 
 let sum = 0;
 
-for (let i = 0; i < fourFiguresNumber.length; i++) {
+for (let i = 0; i < fourFiguresNumber.length; i++) { // Prendiamo in considerazione le singole cifre
     const stringToNumber = parseInt(fourFiguresNumber[i]);
-    console.log(stringToNumber);
-    sum += stringToNumber;
+    sum += stringToNumber; // Sommiamo le cifre l'una con l'altra
 }
 
 console.log(sum);
 
-// Prendiamo in considerazione le singole cifre
-// Sommiamo le cifre l'una con l'altra
