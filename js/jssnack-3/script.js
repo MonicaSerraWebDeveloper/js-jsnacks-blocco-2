@@ -8,7 +8,7 @@
 // Inseriamo al secondo div una classe che dà colore verde al testo
 
 const arrayLength = 20; // Stabiliamo un numero massimo di numeri casuali
-const listOfNumbers = [21, 4, 5, 7, 98, 89, 6, 32]; // Scriviamo un array con una lista di numeri casuali
+const listOfNumbers = []; // Scriviamo un array con una lista di numeri casuali
 
 for (let x = 0; x < arrayLength; x++) { // Scriviamo il ciclo di numeri casuali
     let randomNumberList = Math.floor(Math.random() * 100);
