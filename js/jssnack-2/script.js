@@ -7,6 +7,13 @@ const secondWord = prompt("Scrivi un'altra parola");
 console.log(firstWord.length);
 console.log(secondWord.length);
 
+if (firstWord.length > secondWord.length) {
+    console.log(secondWord, firstWord);
+} else if (secondWord.length > firstWord.length) {
+    console.log(firstWord, secondWord);
+} else {
+    console.log(firstWord, secondWord);
+}
 
 // Verifichiamo se una è più corta dell'altra
 // Se una è più corta dell'altra allora la stampiamo davanti
