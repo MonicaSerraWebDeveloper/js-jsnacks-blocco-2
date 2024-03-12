@@ -7,14 +7,11 @@ const secondWord = prompt("Scrivi un'altra parola");
 console.log(firstWord.length);
 console.log(secondWord.length);
 
-if (firstWord.length > secondWord.length) {
-    console.log(secondWord, firstWord);
+if (firstWord.length > secondWord.length) { // Verifichiamo se una è più corta dell'altra
+    console.log(secondWord, firstWord); // Se una è più corta dell'altra allora la stampiamo davanti
 } else if (secondWord.length > firstWord.length) {
     console.log(firstWord, secondWord);
 } else {
-    console.log(firstWord, secondWord);
+    console.log(firstWord, secondWord); // Se hanno stessa lunghezza le stampiamo nell'ordine che c'è stato dato
 }
 
-// Verifichiamo se una è più corta dell'altra
-// Se una è più corta dell'altra allora la stampiamo davanti
-// Se hanno stessa lunghezza le stampiamo nell'ordine che c'è stato dato
