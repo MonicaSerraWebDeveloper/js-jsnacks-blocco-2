@@ -34,7 +34,6 @@ li {
 
 .odd-number {
     color: red;
-    background-color: lightblue;
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -44,7 +43,6 @@ li {
 
 .even-number {
     color: green;
-    background-color: pink;
     width: 50%;
     display: flex;
     flex-direction: column;
