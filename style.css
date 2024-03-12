@@ -9,11 +9,23 @@
 }
 
 /*-----------------
+    GENERAL
+-------------------*/
+
+li {
+    list-style: none;
+}
+
+/*-----------------
     TEXT COLOR
 -------------------*/
 
 .number-container {
     display: flex;
+    justify-content: center;
+    max-width: 900px;
+    height: 100vh;
+    margin: 0 auto;
 }
 
 /*-----------------
@@ -22,9 +34,21 @@
 
 .odd-number {
     color: red;
+    background-color: lightblue;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .even-number {
     color: green;
-    border: 2px solid blue;
+    background-color: pink;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
 }
