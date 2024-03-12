@@ -3,7 +3,8 @@
 const fourFiguresNumber = prompt('Scrivi un numero di 4 cifre'); // Chiediamo un numero di 4 cifre 
 
 for (let i = 0; i < fourFiguresNumber.length; i++) {
-    console.log(fourFiguresNumber[i]);
+    const stringToNumber = parseInt(fourFiguresNumber[i]);
+    console.log(stringToNumber);
 
 }
 // Prendiamo in considerazione le singole cifre
