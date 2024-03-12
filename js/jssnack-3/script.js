@@ -7,7 +7,10 @@
 // Creiamo due div in HTML e inseriamo un testo per verifica
 // Inseriamo al primo div una classe che dà colore rosso al testo
 // Inseriamo al secondo div una classe che dà colore verde al testo
-// Scriviamo un array con una lista di numeri casuali
-// Verifichiamo quale scorrendo l'intera lista quale numero è pari e quale è dispari
+
+const listOfNumbers = [23, 4, 98, 102, 3, 55, 78]; // Scriviamo un array con una lista di numeri casuali
+console.log(listOfNumbers);
+
+// Verifichiamo quale numero, scorrendo l'intera lista, è pari e quale è dispari
 // Scriviamo i numeri dispari e li inseriamo nel div con il testo rosso
 // Scriviamo i numeri pari nel div con il testo verde
