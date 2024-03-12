@@ -32,7 +32,7 @@ li {
     TEXT COLOR
 -------------------*/
 
-.odd-number {
+#odd-number {
     color: red;
     width: 50%;
     display: flex;
@@ -41,7 +41,7 @@ li {
     justify-content: center;
 }
 
-.even-number {
+#even-number {
     color: green;
     width: 50%;
     display: flex;
