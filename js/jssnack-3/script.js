@@ -3,12 +3,18 @@
 // Partendo da un array di numeri, stampiamo nell’id rosso i numeri dispari e in verde i numeri pari.
 
 
-
 // Creiamo due div in HTML e inseriamo un testo per verifica
 // Inseriamo al primo div una classe che dà colore rosso al testo
 // Inseriamo al secondo div una classe che dà colore verde al testo
 
-const listOfNumbers = [23, 4, 98, 102, 3, 55, 78]; // Scriviamo un array con una lista di numeri casuali
+const arrayLength = 20;
+
+const listOfNumbers = []; // Scriviamo un array con una lista di numeri casuali
+
+for (let x = 0; x < arrayLength; x++) {
+    let randomNumberList = Math.floor(Math.random() * 100);
+    listOfNumbers.push(randomNumberList);
+}
 
 let allTheNumbers = 0;
 
@@ -17,7 +23,6 @@ for (let i = 0; i < listOfNumbers.length; i++) {
     
     const addList = document.createElement('li');
     addList.innerHTML = allTheNumbers;
-    console.log(addList);
     if (allTheNumbers % 2 === 0) {
         document.querySelector('.even-number').append(addList);
     } else {
