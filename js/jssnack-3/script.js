@@ -11,8 +11,15 @@
 const listOfNumbers = [23, 4, 98, 102, 3, 55, 78]; // Scriviamo un array con una lista di numeri casuali
 console.log(listOfNumbers);
 
+let allTheNumbers = 0;
+
 for (let i = 0; i < listOfNumbers.length; i++) {
-    
+    allTheNumbers = listOfNumbers[i];
+
+    if (allTheNumbers % 2 === 0) {
+        console.log(allTheNumbers);
+    }
+
 }
 // Verifichiamo quale numero, scorrendo l'intera lista, è pari e quale è dispari
 // Scriviamo i numeri dispari e li inseriamo nel div con il testo rosso
